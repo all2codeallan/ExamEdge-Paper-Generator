@@ -80,6 +80,7 @@ export default function App() {
           />
 
 
+
           {/* Admin routes */}
           <Route path="/admin-dashboard" element={
             <ProtectedRoute role="admin">
