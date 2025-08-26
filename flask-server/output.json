@@ -1,0 +1,138 @@
+{
+    "multipleChoice": [
+        {
+            "question": "Which of the following is NOT a reason for software change?",
+            "options": [
+                "A. New requirements emerging from software use",
+                "B. Changes in the business environment",
+                "C. Software perfectly meeting initial specifications",
+                "D. The need to repair errors"
+            ],
+            "correctAnswer": "C. Software perfectly meeting initial specifications",
+            "explanation": "Software is rarely perfect upon release and changes are always needed.",
+            "courseOutcome": "CO2",
+            "bloomsLevel": "Understand"
+        },
+        {
+            "question": "What is the primary focus of the 'servicing' stage of software evolution?",
+            "options": [
+                "A. Adding new functionalities",
+                "B. Implementing major architectural changes",
+                "C. Maintaining operational functionality and fixing bugs",
+                "D. Designing and planning for future upgrades"
+            ],
+            "correctAnswer": "C. Maintaining operational functionality and fixing bugs",
+            "explanation": "Servicing focuses on keeping the software running, not adding new features.",
+            "courseOutcome": "CO2",
+            "bloomsLevel": "Understand"
+        },
+        {
+            "question": "What drives system evolution?",
+            "options": [
+                "A. The initial design document",
+                "B. Proposals for change",
+                "C. The programming language used",
+                "D. The operating system"
+            ],
+            "correctAnswer": "B. Proposals for change",
+            "explanation": "Change requests are the impetus for software evolution.",
+            "courseOutcome": "CO2",
+            "bloomsLevel": "Remember"
+        },
+        {
+            "question": "In what phase of software evolution is the system in operational use and undergoes changes?",
+            "options": [
+                "A. Servicing",
+                "B. Phase-out",
+                "C. Evolution",
+                "D. Development"
+            ],
+            "correctAnswer": "C. Evolution",
+            "explanation": "The evolution phase is defined by the software being in use and changing.",
+            "courseOutcome": "CO2",
+            "bloomsLevel": "Understand"
+        },
+        {
+            "question": "Which of the following is a factor influencing software evolution processes?",
+            "options": [
+                "A. The color of the software packaging",
+                "B. The type of software being maintained",
+                "C. The user's shoe size",
+                "D. The manufacturer's warranty period"
+            ],
+            "correctAnswer": "B. The type of software being maintained",
+            "explanation": "Different software types require different evolution approaches.",
+            "courseOutcome": "CO2",
+            "bloomsLevel": "Understand"
+        }
+    ],
+    "shortAnswer": [
+        {
+            "question": "Briefly explain why software change is inevitable.",
+            "answer": "Software change is inevitable because of evolving user needs, changes in the business environment, the need to fix bugs, and advancements in technology.  These factors necessitate continuous adaptation and updates.",
+            "courseOutcome": "CO2",
+            "bloomsLevel": "Understand"
+        },
+        {
+            "question": "What is the difference between software evolution and servicing?",
+            "answer": "Evolution involves adding new functionalities and features. Servicing focuses solely on maintaining existing functionality, correcting bugs, and addressing environmental changes without adding new features.",
+            "courseOutcome": "CO2",
+            "bloomsLevel": "Understand"
+        },
+        {
+            "question": "Why is program understanding crucial in change implementation?",
+            "answer": "Program understanding is vital to assess the system's structure, functionality and potential impact of changes before implementation, preventing unforeseen consequences.",
+            "courseOutcome": "CO2",
+            "bloomsLevel": "Understand"
+        },
+        {
+            "question": "Describe a situation where an urgent change request might bypass standard procedures.",
+            "answer": "A critical system failure requiring immediate repair to restore normal operation would justify bypassing standard procedures to ensure swift resolution and business continuity.",
+            "courseOutcome": "CO2",
+            "bloomsLevel": "Apply"
+        },
+        {
+            "question": "How does a spiral model relate to software evolution?",
+            "answer": "A spiral model's iterative nature, emphasizing risk assessment and incremental development, is well-suited for managing the iterative and evolving nature of software maintenance and upgrades.",
+            "courseOutcome": "CO2",
+            "bloomsLevel": "Apply"
+        }
+    ],
+    "longAnswer": [
+        {
+            "question": "Discuss the key challenges involved in managing software evolution within an organization.  Consider the impact of budget, personnel, and the need for rapid response to change.",
+            "answer": "Managing software evolution presents significant challenges.  Budget constraints often limit the resources available for maintenance and upgrades, creating a tension between necessary updates and cost control.  Personnel expertise is another factor, as understanding legacy systems can be difficult, requiring specialized skills, which can be scarce and expensive.  Furthermore, the need for rapid response to change, particularly in dynamic business environments, creates pressure to implement changes quickly, potentially compromising thorough testing and quality assurance, leading to further problems down the line.  Successfully managing software evolution requires careful planning, prioritization of changes, effective communication and a proactive approach to mitigating risks associated with change implementation.",
+            "markingScheme": [
+                "Identification of budget constraints as a challenge (2 marks)",
+                "Discussion of the difficulties in maintaining and upgrading legacy systems (2 marks)",
+                "Explanation of the need for personnel with specialized skills (1 mark)",
+                "Discussion of the tension between speed of implementation and quality assurance (1 mark)"
+            ],
+            "courseOutcome": "CO2",
+            "bloomsLevel": "Analyze"
+        },
+        {
+            "question": "Compare and contrast the processes of software evolution and software development.  What are the key differences in approach, priorities, and challenges?",
+            "answer": "Software development focuses on creating a new system from scratch, following a defined process from requirements gathering to deployment.  Software evolution, on the other hand, deals with modifying and improving an existing system.  The priorities differ significantly: development prioritizes functionality and initial design, while evolution prioritizes maintaining operability, addressing bugs, and adapting to changing requirements.  Challenges in development focus on meeting initial specifications and deadlines, while evolution grapples with legacy code, limited understanding of the existing system, and the need to minimize disruption to users.  In short, development is a planned, relatively controlled process, while evolution is more reactive, incremental, and frequently involves dealing with unforeseen complications stemming from prior development decisions.",
+            "markingScheme": [
+                "Comparison of the overall goals of development and evolution (2 marks)",
+                "Discussion of differing priorities (2 marks)",
+                "Identification of contrasting challenges faced (2 marks)"
+            ],
+            "courseOutcome": "CO2",
+            "bloomsLevel": "Analyze"
+        },
+        {
+            "question": "Evaluate the importance of a well-defined change management process for successful software evolution. What are the consequences of neglecting a robust process?",
+            "answer": "A well-defined change management process is crucial for successful software evolution.  It provides structure and control, ensuring that changes are thoroughly assessed, prioritized, planned, and implemented in a controlled manner.  This reduces risks, minimizes disruption to users, and improves the overall quality of the software.  A robust process includes impact analysis, cost estimation, thorough testing, and version control.  Neglecting a well-defined process can lead to uncontrolled changes, increased risk of errors, system instability, higher costs due to rework, and overall dissatisfaction among users. It can also damage the reputation of the software development team or organization.  Without careful management, the long-term value of the software investment is threatened.",
+            "markingScheme": [
+                "Explanation of the benefits of a well-defined change management process (3 marks)",
+                "Discussion of the negative consequences of neglecting a robust process (3 marks)",
+                "Examples of issues that arise from lacking a defined process (2 marks)"
+            ],
+            "courseOutcome": "CO2",
+            "bloomsLevel": "Evaluate"
+        }
+    ],
+    "numerical": []
+}
